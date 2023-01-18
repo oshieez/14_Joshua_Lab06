@@ -48,7 +48,7 @@ public class CurrencyConverter : MonoBehaviour
         }
         if (ThailandBhat.isOn)
         {
-            inputValue *= 0.040f;
+            inputValue *= 17785.74;
         }
 
         Value.text = "" + inputValue;
